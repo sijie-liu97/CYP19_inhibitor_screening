@@ -1,0 +1,383 @@
+PUBCHEM_RESULT_TAG,PUBCHEM_SID,PUBCHEM_CID,PUBCHEM_EXT_DATASOURCE_SMILES,PUBCHEM_ACTIVITY_OUTCOME,PUBCHEM_ACTIVITY_SCORE,PUBCHEM_ACTIVITY_URL,PUBCHEM_ASSAYDATA_COMMENT,Activity Summary,Antagonist Activity,Antagonist Potency (uM),Antagonist Efficacy (%),Viability Activity,Viability Potency (uM),Viability Efficacy (%),Sample Source
+RESULT_TYPE,,,,,,,,STRING,STRING,FLOAT,FLOAT,STRING,FLOAT,FLOAT,STRING
+RESULT_DESCR,,,,,,,,Type of compound activity based on both the aromatase antagonist mode readout and the cell viability counter screen.,Type of compound activity in the aromatase antagonist mode screen.,The concentration of sample yielding half-maximal inhibition of aromatase.,Percent inhibition of aromatase.,Type of compound activity in the cell viability counter screen.,The concentration of sample yielding half-maximal inhibition of cell viability.,Percent inhibition of cell viability.,Where sample was obtained.
+RESULT_UNIT,,,,,,,,,,MICROMOLAR,PERCENT,,MICROMOLAR,PERCENT,
+1,144203574,65463,CC(C)(C)C1=CC=C(C=C1)CN2CCN(CC2)C(C3=CC=CC=C3)C4=CC=C(C=C4)Cl.Cl.Cl,Active,44,,,active antagonist,active antagonist,28.1796,-57.2939,inactive,,0,NCI
+2,144203575,439501,C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@H]2C[C@H]([C@@]3([C@@H]4[C@@H](CC[C@@]3(C2)O)[C@]5(CC[C@@H]([C@]5(C[C@H]4O)C)C6=CC(=O)OC6)O)CO)O)O)O)O,Active,50,,,active antagonist,active antagonist,1.43968,-47.4582,inactive,,0,NCI
+3,144203611,71203,CC[C@@]12CCCN3[C@@H]1C4=C(CC3)C5=CC=CC=C5N4C(=O)C2,Active,48,,,active antagonist,active antagonist,11.3588,-79.965,inactive,,0,"Prestwick Chemical, Inc."
+4,144203662,2812,C1=CC=C(C=C1)C(C2=CC=CC=C2)(C3=CC=CC=C3Cl)N4C=CN=C4,Active,53,,,active antagonist,active antagonist,6.38752,-104.459,inactive,,0,"Prestwick Chemical, Inc."
+5,144203679,10649,CC1=[N+](C2=CC=CC=C2C(=C1)N)CCCCCCCCCC[N+]3=C(C=C(C4=CC=CC=C43)N)C.[Cl-].[Cl-],Active,45,,,active antagonist,active antagonist,9.37559,-43.7556,inconclusive,,,"Prestwick Chemical, Inc."
+6,144203722,55918,C1CC(=O)NN=C1C2=CC=C(C=C2)N3C=CN=C3,Active,52,,,active antagonist,active antagonist,7.21552,-100.357,inactive,,0,SigmaAldrich
+7,144203738,65710,CC1=CC=CC=C1CNC2=C3C(=NC=N2)N(C=N3)[C@H]4[C@@H]([C@@H]([C@H](O4)CO)O)O,Active,45,,,active antagonist,active antagonist,5.95572,-29.5069,inactive,,0,SigmaAldrich
+8,144203763,4485,CC1=C(C(C(=C(N1)C)C(=O)OC)C2=CC=CC=C2[N+](=O)[O-])C(=O)OC,Active,43,,,active antagonist,active antagonist,25.6016,-31.9522,inactive,,0,BIOMOL
+9,144203806,54900,C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O.Cl,Active,100,,,active antagonist,active antagonist,0.0128312,-156.585,active antagonist,17.4422,-86.9983,SigmaAldrich
+10,144203840,1359,C1=CC=C(C(=C1)C(F)(F)F)N2C=CN=C2,Active,52,,,active antagonist,active antagonist,6.94386,-99.3916,inactive,,0,SigmaAldrich
+11,144203848,5593,CCN(CC1=CC=NC=C1)C(=O)C(CO)C2=CC=CC=C2,Active,45,,,active antagonist,active antagonist,28.1796,-80.3854,inactive,,0,BIOMOL
+12,144204017,11289,COC1=CC=C(C=C1)C(=C(C2=CC=C(C=C2)OC)Cl)C3=CC=C(C=C3)OC,Active,46,,,active antagonist,active antagonist,8.7418,-49.1988,inactive,,0,NIEHS
+13,144204152,4189,C1=CC(=C(C=C1Cl)Cl)COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl,Active,53,,,active antagonist,active antagonist,7.73866,-108.604,inactive,,0,"Prestwick Chemical, Inc."
+14,144204167,3760,C1=CC(=C(C(=C1)Cl)COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl)Cl,Active,50,,,active antagonist,active antagonist,10.1235,-95.6027,inactive,,0,"Prestwick Chemical, Inc."
+15,144204175,47471,C1=CC(=C(C(=C1)Cl)SC(CCC2=CC=C(C=C2)Cl)CN3C=CN=C3)Cl.[N+](=O)(O)[O-],Active,47,,,active antagonist,active antagonist,13.7615,-73.2672,inactive,,0,"Prestwick Chemical, Inc."
+16,144204222,65495,C1=CC(=CC=C1CSC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl)Cl.[N+](=O)(O)[O-],Active,56,,,active antagonist,active antagonist,3.08081,-102.041,inactive,,0,"Prestwick Chemical, Inc."
+17,144204269,200103,C1=CC2=C(C(=C1)Cl)SC=C2COC(CN3C=CN=C3)C4=C(C=C(C=C4)Cl)Cl.[N+](=O)(O)[O-],Active,53,,,active antagonist,active antagonist,5.07379,-95.3373,inactive,,0,"Prestwick Chemical, Inc."
+18,144204270,3902,C1=CC(=CC=C1C#N)C(C2=CC=C(C=C2)C#N)N3C=NC=N3,Active,74,,,active antagonist,active antagonist,0.0173247,-91.2271,inactive,,0,"Prestwick Chemical, Inc."
+19,144204293,8813,C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N.C(CS(=O)(=O)O)O.C(CS(=O)(=O)O)O,Active,43,,,active antagonist,active antagonist,26.6032,-37.8101,inactive,,0,SigmaAldrich
+20,144204350,175533,CCCCCCC[N+](CC)(CC)CCCCC1=CC=C(C=C1)Cl.CC1=CC=C(C=C1)S(=O)(=O)[O-],Active,46,,,active antagonist,active antagonist,12.7448,-54.681,inactive,,0,"Prestwick Chemical, Inc."
+21,144204368,1548943,CC(C)/C=C/CCCCC(=O)NCC1=CC(=C(C=C1)O)OC,Active,43,,,active antagonist,active antagonist,18.8336,-33.6159,inactive,,0,NIEHS
+22,144204369,445354,CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/CO)/C)/C,Active,44,,,active antagonist,active antagonist,18.8336,-34.8447,inactive,,0,SigmaAldrich
+23,144204375,163751,C1CNCCN(C1)S(=O)(=O)C2=CC=CC3=C2C=CN=C3.Cl,Active,46,,,active antagonist,active antagonist,19.5704,-64.2,inactive,,0,Tocris
+24,144204401,2378,C1=CC=C(C=C1)C2=CC=C(C=C2)C(C3=CC=CC=C3)N4C=CN=C4,Active,60,,,active antagonist,active antagonist,0.87418,-93.0014,inactive,,0,Microsource
+25,144204403,68589,C1=CC(=CC=C1COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl)Cl.[N+](=O)(O)[O-],Active,57,,,active antagonist,active antagonist,1.61535,-93.1128,inconclusive antagonist,33.4915,-62.651,NIEHS
+26,144204421,73896879,C[C@@H]1CC[C@H]2C[C@@H](C(=C/C=C\C=C\[C@H](C[C@H](C(=O)[C@@H]([C@@H](/C(=C\[C@H](C(=O)C[C@H](OC(=O)[C@@H]3CCCCN3C(=O)C(=O)[C@@]1(O2)O)[C@H](C)C[C@@H]4CC[C@H]([C@@H](C4)OC)O)C)/C)O)OC)C)C)C)OC,Active,51,,,active antagonist,active antagonist,2.19584,-60.9924,active antagonist,16.7855,-95.774,Tocris
+27,144204447,30323,C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)C)O)N)O,Active,56,,,active antagonist,active antagonist,4.05758,-108.919,active antagonist,12.3481,-113.526,InterBioScreen
+28,144204452,10219,CC[C@H]1CN2CCC3=CC(=C(C=C3[C@@H]2C[C@@H]1C[C@@H]4C5=CC(=C(C=C5CCN4)OC)OC)OC)OC,Active,68,,,active antagonist,active antagonist,0.195704,-102.862,active antagonist,1.18832,-64.6746,InterBioScreen
+29,144204489,2733525,CC/C(=C(\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3.C(C(=O)O)C(CC(=O)O)(C(=O)O)O,Active,56,,,active antagonist,active antagonist,4.55268,-116.185,active antagonist,27.644,-96.1629,SigmaAldrich
+30,144204490,104741,C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)[C@@H](CC4=C3C=CC(=C4)O)CCCCCCCCCS(=O)CCCC(C(F)(F)F)(F)F,Active,76,,,active antagonist,active antagonist,0.0668242,-113.345,inactive,,0,Tocris
+31,144204491,47936,CC(=O)O[C@H]1[C@H]([C@@H]2[C@]([C@H](CCC2(C)C)O)([C@@]3([C@@]1(O[C@@](CC3=O)(C)C=C)C)O)C)O,Active,58,,,active antagonist,active antagonist,1.14358,-87.7158,inactive,,0,SigmaAldrich
+32,144204497,45073437,C1=CC(=C(C=C1Cl)Cl)/C(=C/N2C=NC=N2)/Cl.Cl,Active,43,,,active antagonist,active antagonist,26.6032,-31.2885,inactive,,0,Tocris
+33,144204500,45356872,CC(C)(CCC[C@@](CC(=O)OC)(C(=O)O[C@H]1[C@H]2C3=CC4=C(C=C3CCN5C2(CCC5)C=C1OC)OCO4)O)O,Active,75,,,active antagonist,active antagonist,0.027644,-99.1222,active antagonist,0.114358,-51.8834,Tocris
+34,144204517,68601,CC1=C(C(=CC=C1)C(C)C2=CN=CN2)C.Cl,Active,45,,,active antagonist,active antagonist,29.8493,-72.632,inactive,,0,Tocris
+35,144204528,65768,C1=CC=C2C(=C1)C(=CN2)CCNC(=O)C3=CN=CC=C3,Active,43,,,active antagonist,active antagonist,32.2305,-45.1527,inactive,,0,Asinex
+36,144204531,62960,CS(=O)(=O)O.C1[C@@H]2[C@@H](C2N)CN1C3=C(C=C4C(=O)C(=CN(C4=N3)C5=C(C=C(C=C5)F)F)C(=O)O)F,Active,58,,,active antagonist,active antagonist,0.573149,-78.3594,inactive,,0,InterBioScreen
+37,144204729,108005,O.O.[O-][Cr](=O)(=O)O[Cr](=O)(=O)[O-].[Na+].[Na+],Active,48,,,active antagonist,active antagonist,16.1535,-88.0065,inconclusive antagonist,12.5873,-29.3918,NIEHS
+38,144204738,2723598,C1=CC=C2C(=C1)C(=C3C=CC=CC3=N2)N.O.Cl,Active,50,,,active antagonist,active antagonist,18.8336,-123.668,active agonist,28.7255,507.666,NIEHS
+39,144204743,65399,CN1C2=NC=NC3=C2C(=CN3[C@H]4[C@@H]([C@@H]([C@H](O4)CO)O)O)C(=N1)N,Active,48,,,active antagonist,active antagonist,1.10053,-36.8097,inactive,,0,Tocris
+40,144204780,6917728,CCC1=CC(=C(C(=C1O)C(=O)NC[C@@H]2CCCN2CC)OC)Cl.Cl,Active,43,,,active antagonist,active antagonist,16.7855,-30.6313,inactive,,0,SigmaAldrich
+41,144204787,636362,C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=CC=CC=C5C4=O)O)(C(=O)C)O)N)O.Cl,Active,57,,,active antagonist,active antagonist,3.48017,-110.193,active antagonist,11.4358,-134.174,Sequoia
+42,144204798,6433339,CC[N+](CC)(CC)CCOC1=CC=C(C=C1)/C=C/C2=CC=CC=C2.[I-],Active,44,,,active antagonist,active antagonist,31.618,-54.8778,inactive,,0,SigmaAldrich
+43,144204869,3718,CC(C1=CC=C(C=C1)N2CC3=CC=CC=C3C2=O)C(=O)O,Active,47,,,active antagonist,active antagonist,21.1317,-94.4935,inactive,,0,Microsource
+44,144204890,443101,C[N+]1=C2C=C(C=CC2=CC3=C1C=C(C=C3)N)N.C1=CC(=CC2=NC3=C(C=CC(=C3)N)C=C21)N.[Cl-],Active,49,,,active antagonist,active antagonist,15.5454,-104.759,active agonist,24.6377,614.388,Microsource
+45,144204963,14710,CC[N+]1=C2C=C(C=CC2=C3C=CC(=CC3=C1C4=CC=CC=C4)N)N.[Br-],Active,46,,,active antagonist,active antagonist,27.644,-85.748,inactive,,0,Microsource
+46,144205004,13789,C[C@]12CCC(=O)C=C1C=C[C@@H]3[C@@H]2CC[C@]4([C@H]3CC[C@@]45CCC(=O)O5)C,Active,43,,,active antagonist,active antagonist,21.9584,-34.3795,inactive,,0,Microsource
+47,144205020,9556529,C1=CC(=C(C=C1Cl)Cl)CO/N=C(\CN2C=CN=C2)/C3=C(C=C(C=C3)Cl)Cl.[N+](=O)(O)[O-],Active,56,,,active antagonist,active antagonist,2.66032,-96.9884,inactive,,0,Microsource
+48,144205031,60699,CC[C@@]1(C2=C(COC1=O)C(=O)N3CC4=CC5=C(C=CC(=C5CN(C)C)O)N=C4C3=C2)O.Cl,Active,52,,,active antagonist,active antagonist,5.73149,-87.6067,active agonist,13.3332,301.285,Microsource
+49,144205052,60198,C[C@]12CC[C@H]3[C@H]([C@@H]1CCC2=O)CC(=C)C4=CC(=O)C=C[C@]34C,Active,60,,,active antagonist,active antagonist,0.0455268,-59.5942,inactive,,0,Microsource
+50,144205078,60496,CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN.C1=CC=C(C=C1)S(=O)(=O)O,Active,46,,,active antagonist,active antagonist,28.7255,-91.6484,inactive,,0,Microsource
+51,144205093,64715,CC[C@H](C)C(=O)O[C@H]1CCC=C2[C@H]1[C@H]([C@H](C=C2)C)CC[C@@H]3C[C@H](CC(=O)O3)O,Active,46,,,active antagonist,active antagonist,9.99848,-47.0899,inactive,,0,Microsource
+52,144205098,294641,C1[C@H](ON=C1Cl)[C@@H](C(=O)O)N,Active,46,,,active antagonist,active antagonist,6.68242,-47.1587,inconclusive antagonist,2.51151,-22.4519,Microsource
+53,144205142,443831,C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)O)O)(C(=O)C)O)N)O,Active,56,,,active antagonist,active antagonist,3.48017,-108.302,active antagonist,15.5454,-128.141,InterBioScreen
+54,144205296,65909,CC1(C2=CC=CN2C3=CC=CC=C3CO1)CN4CCC(CC4)N5C6=CC=CC=C6NC5=O,Active,43,,,active antagonist,active antagonist,29.8493,-45.5363,inactive,,0,Tocris
+55,144205297,443375,CN1C2=CC=CC=C2C(=N[C@@H](C1=O)NC(=O)C3=CC4=CC=CC=C4N3)C5=CC=CC=C5,Active,45,,,active antagonist,active antagonist,23.7101,-70.7126,inactive,,0,Tocris
+56,144205320,6764,C1=CC2=C(C(=O)C(=O)C3=C2C=CC=N3)N=C1,Active,47,,,active antagonist,active antagonist,22.8175,-88.8242,inconclusive agonist,29.8493,209.436,Asinex
+57,144205510,165457,CCOC1=CC2=C(C3=C(C=C(C=C3)N)N=C2C=C1)N.CC(C(=O)O)O.O,Active,46,,,active antagonist,active antagonist,33.4915,-105.613,active agonist,21.9584,153.639,Vitas
+58,144205531,443831,C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)O)O)(C(=O)C)O)N)O,Active,56,,,active antagonist,active antagonist,3.48017,-107.254,active antagonist,16.1535,-107.648,Vitas
+59,144205565,5284513,CC1=CC(=C(C(=C1/C=C/C(=C/C=C/C(=C/C(=O)O)/C)/C)C)C)OC,Active,49,,,active antagonist,active antagonist,0.455268,-34.3502,inactive,,0,FLUKA
+60,144205610,439501,C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@H]2C[C@H]([C@@]3([C@@H]4[C@@H](CC[C@@]3(C2)O)[C@]5(CC[C@@H]([C@]5(C[C@H]4O)C)C6=CC(=O)OC6)O)CO)O)O)O)O,Active,50,,,active antagonist,active antagonist,0.74978,-41.0197,inactive,,0,BIOMOL
+61,144205618,20054868,C[C@@H]1[C@H]([C@@H](C[C@@H](O1)O[C@H]2[C@@H](CC3=C(C2=O)C(=C4C(=C3)C=C(C(=C4O)C)O[C@H]5C[C@H]([C@H]([C@H](O5)C)OC(=O)O)O[C@@H]6C[C@H]([C@H]([C@H](O6)C)OC)O)O)[C@@H](C(=O)[C@H]([C@@H](C)O)O)OC)O[C@H]7C[C@H]([C@@H]([C@H](O7)C)O)O[C@H]8C[C@]([C@H]([C@@H](O8)C)OC(=O)C)(C)O)O,Active,61,,,active antagonist,active antagonist,0.595572,-91.812,inconclusive antagonist,0.473079,-22.6901,BIOMOL
+62,144205622,5377791,CCOP(=O)(OCC)O/C(=C/Cl)/C1=C(C=C(C=C1)Cl)Cl,Active,44,,,active antagonist,active antagonist,37.578,-59.0166,inactive,,0,RIEDEL
+63,144205624,173636,C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl.OS(=O)(=O)O,Active,58,,,active antagonist,active antagonist,0.980846,-88.4413,inactive,,0,SigmaAldrich
+64,144205664,11273,C[C@]12CCC(=O)C(=C1CC[C@@H]3[C@@H]2CC[C@]4([C@H]3CCC4=O)C)O,Active,66,,,active antagonist,active antagonist,0.090838,-85.2033,inactive,,0,SigmaAldrich
+65,144205673,2750,CC1(CCCCC1)COC2=CC=C(C=C2)CC3C(=O)NC(=O)S3,Active,45,,,active antagonist,active antagonist,10.5909,-36.6439,inactive,,0,SigmaAldrich
+66,144205726,9927058,C1C(S/C(=C(/C#N)\N2C=CN=C2)/S1)C3=CC=CC=C3Cl,Active,54,,,active antagonist,active antagonist,3.10171,-90.7737,inactive,,0,Sequoia
+67,144205727,5311217,CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2/C=C/C(=O)OC(C)(C)C)C(=O)OCC)C)C,Active,46,,,active antagonist,active antagonist,10.5909,-55.0484,inactive,,0,Sequoia
+68,144205735,119182,C1=NC2=C(N=C(N=C2N1[C@H]3[C@H]([C@@H]([C@H](O3)CO)O)F)Cl)N,Active,51,,,active antagonist,active antagonist,1.58465,-56.9568,inactive,,0,Sequoia
+69,144205748,5282451,C1C(C1)C2=NC3=CC=CC=C3C(=C2/C=C/[C@@H](O)C[C@@H](O)CC(=O)[O-])C4=CC=C(C=C4)F.C1C(C1)C2=NC3=CC=CC=C3C(=C2/C=C/[C@@H](O)C[C@@H](O)CC(=O)[O-])C4=CC=C(C=C4)F.[Ca+2],Active,50,,,active antagonist,active antagonist,0.177801,-35.2849,inactive,,0,Sequoia
+70,144205755,176870,COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC,Active,48,,,active antagonist,active antagonist,19.5704,-101.555,inactive,,0,Sequoia
+71,144205763,34001,C1CC(CCC1CN)C(=O)OC2=CC=C(C=C2)CCC(=O)O.Cl,Active,44,,,active antagonist,active antagonist,28.1796,-54.727,inactive,,0,Sequoia
+72,144205779,23663976,CC(C)N1C2=CC=CC=C2C(=C1/C=C/[C@H](C[C@H](CC(=O)[O-])O)O)C3=CC=C(C=C3)F.[Na+],Active,47,,,active antagonist,active antagonist,7.4978,-57.0347,inactive,,0,Sequoia
+73,144205784,50248,CSC1=NC2=CC(=C(C=C2N1)Cl)OC3=C(C(=CC=C3)Cl)Cl,Active,46,,,active antagonist,active antagonist,23.7101,-75.279,inactive,,0,InterBioScreen
+74,144205789,60164,COC1=C(C=C(C=C1)C2=CC3=C(C=C2)C=C(C=C3)C(=O)O)C45CC6CC(C4)CC(C6)C5,Active,55,,,active antagonist,active antagonist,0.0105909,-36.0729,inactive,,0,Sequoia
+75,144205791,2187,CC(C)(C#N)C1=CC(=CC(=C1)CN2C=NC=N2)C(C)(C)C#N,Active,62,,,active antagonist,active antagonist,0.390482,-91.6378,inactive,,0,Sequoia
+76,144205797,23663992,CC(C)C1=C(C(=C(C(=N1)C(C)C)COC)C2=CC=C(C=C2)F)/C=C/[C@H](C[C@H](CC(=O)[O-])O)O.[Na+],Active,50,,,active antagonist,active antagonist,0.133332,-31.6632,inactive,,0,Sequoia
+77,144205886,9270,CC(=O)O[C@H]1CC[C@@H]2[C@H]3CC[C@]4([C@H]([C@@H]3CCC2=C1)CC[C@]4(C#C)OC(=O)C)C,Active,49,,,active antagonist,active antagonist,0.174422,-28.4001,inactive,,0,SIGMA
+78,144205896,37907,CC(C)(C)C(=O)C(N1C=CN=C1)OC2=CC=C(C=C2)Cl,Active,47,,,active antagonist,active antagonist,13.3332,-75.1398,inactive,,0,RIEDEL
+79,144205924,9849425,C1=CC(=CC2=NC3=C(C=CC(=C3)N)C=C21)N.C1=CC(=CC2=NC3=C(C=CC(=C3)N)C=C21)N.OS(=O)(=O)O,Active,51,,,active antagonist,active antagonist,11.0053,-103.414,active agonist,9.43918,444.292,SigmaAldrich
+80,144205987,5482,C1=CC(=C(C=C1Cl)Cl)C(CN2C=CN=C2)OCC3=C(SC=C3)Cl,Active,55,,,active antagonist,active antagonist,5.5157,-110.185,inconclusive antagonist,28.1796,-35.3102,Bosche
+81,144206038,153751,CC[C@]1(C[C@@H](C2=C(C3=C(C=C2[C@H]1C(=O)OC)C(=O)C4=C(C3=O)C(=CC=C4)O)O)O[C@H]5C[C@@H]([C@@H]([C@@H](O5)C)O[C@H]6C[C@@H]([C@@H]([C@@H](O6)C)O[C@H]7CCC(=O)[C@@H](O7)C)O)N(C)C)O.Cl,Active,57,,,active antagonist,active antagonist,2.46377,-104.361,active antagonist,10.5909,-101.207,InterBioScreen
+82,144206046,157917,CC1=C(C(C(=C(N1)C)C(=O)OC(C)(C)CN(C)CCC(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC(=CC=C4)[N+](=O)[O-])C(=O)OC.Cl,Active,46,,,active antagonist,active antagonist,21.1317,-79.4906,inactive,,0,InterBioScreen
+83,144206049,164877,CN=C1C=CC(=C(C2=CC=C(C=C2)N(C)C)C3=CC=C(C=C3)N(C)C)C=C1,Active,59,,,active antagonist,active antagonist,1.81246,-103.558,active antagonist,8.09594,-119.88,Labotest
+84,144206050,6099,CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2.[Cl-],Active,56,,,active antagonist,active antagonist,3.7578,-107.004,active antagonist,22.8175,-115.931,Labotest
+85,144206063,6442177,C[C@@H]1CC[C@H]2C[C@@H](/C(=C/C=C/C=C/[C@H](C[C@H](C(=O)[C@@H]([C@@H](/C(=C/[C@H](C(=O)C[C@H](OC(=O)[C@@H]3CCCCN3C(=O)C(=O)[C@@]1(O2)O)[C@H](C)C[C@@H]4CC[C@H]([C@@H](C4)OC)OCCO)C)/C)O)OC)C)C)/C)OC,Active,53,,,active antagonist,active antagonist,0.0779114,-39.0484,active antagonist,11.0053,-100.184,Sequoia
+86,144206075,5381,CCOC(=O)C1=CN=C(C=C1)C#CC2=CC3=C(C=C2)SCCC3(C)C,Active,55,,,active antagonist,active antagonist,0.0668242,-45.8423,inactive,,0,Sequoia
+87,144206169,16078,CCCCCC1=CC(=C2[C@@H]3C=C(CC[C@H]3C(OC2=C1)(C)C)C)O,Active,45,,,active antagonist,active antagonist,23.7101,-60.6755,inactive,,0,SigmaAldrich
+88,144206178,443946,C[C@@H]1[C@H]([C@H](C[C@@H](O1)O[C@@H]2[C@H](O[C@H](C[C@@H]2O)O[C@@H]3[C@H](O[C@H](C[C@@H]3O)O[C@H]4CC[C@]5([C@@H](C4)CC[C@@H]6[C@@H]5C[C@H]([C@]7([C@@]6(CC[C@@H]7C8=CC(=O)OC8)O)C)O)C)C)C)O)OC,Active,51,,,active antagonist,active antagonist,1.67855,-58.635,inactive,,0,Pharmeks
+89,144206183,387447,B([C@H](CC(C)C)NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)C2=NC=CN=C2)(O)O,Active,68,,,active antagonist,active antagonist,0.0228175,-77.0526,active antagonist,0.421632,-132.578,NCI
+90,144206186,126565,C[C@@]12[C@](C[C@@H](O1)N3C4=CC=CC=C4C5=C6C(=C7C8=CC=CC=C8N2C7=C53)CNC6=O)(CO)O,Active,61,,,active antagonist,active antagonist,2.19584,-123.513,active antagonist,16.7855,-100.917,Toronto Research
+91,144206225,387447,B([C@H](CC(C)C)NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)C2=NC=CN=C2)(O)O,Active,69,,,active antagonist,active antagonist,0.0161535,-75.165,active antagonist,0.421632,-122.252,Sequoia
+92,144206236,71454,C1=CC(=CC(=C1)Cl)C(C2=CC3=C(C=C2)N=CN3)N4C=CN=C4.Cl,Active,62,,,active antagonist,active antagonist,0.510819,-95.9293,inactive,,0,Tocris
+93,144206258,25381,CC1(C2=CC=CC=C2C(=CCCN(C)C)C3=CC=CC=C31)C.Cl,Active,43,,,active antagonist,active antagonist,21.1317,-29.6769,inactive,,0,NCI
+94,144206266,443942,CC1=C(OC2=C(C1=O)C=CC(=C2CN(C)C)OC)C3=CC=CC=C3.Cl,Active,43,,,active antagonist,active antagonist,33.4915,-51.5994,inactive,,0,NCI
+95,144206278,108143,CC1(CCC(C2=C1C=CC(=C2)NC(=O)C3=CC=C(C=C3)C(=O)O)(C)C)C,Active,57,,,active antagonist,active antagonist,0.00298493,-35.804,inactive,,0,NCI
+96,144206303,73896879,C[C@@H]1CC[C@H]2C[C@@H](C(=C/C=C\C=C\[C@H](C[C@H](C(=O)[C@@H]([C@@H](/C(=C\[C@H](C(=O)C[C@H](OC(=O)[C@@H]3CCCCN3C(=O)C(=O)[C@@]1(O2)O)[C@H](C)C[C@@H]4CC[C@H]([C@@H](C4)OC)O)C)/C)O)OC)C)C)C)OC,Active,48,,,active antagonist,active antagonist,0.266032,-28.8001,active antagonist,23.7101,-84.5595,NCI
+97,144206304,5284610,C[C@@H]1[C@H]([C@@H](C[C@@H](O1)O[C@@H]2C[C@@H](O[C@@H]([C@@H]2O)C)OC3=CC4=CC5=C(C(=O)[C@H](C(C5)[C@@H](C(=O)[C@H]([C@@H](C)O)O)OC)O[C@H]6C[C@H]([C@@H]([C@H](O6)C)O)O[C@H]7C[C@H]([C@@H]([C@H](O7)C)O)O[C@H]8C[C@]([C@@H]([C@H](O8)C)O)(C)O)C(=C4C(=C3C)O)O)O)O,Active,59,,,active antagonist,active antagonist,1.14358,-92.7343,inconclusive,,,NCI
+98,144206340,5284610,C[C@@H]1[C@H]([C@@H](C[C@@H](O1)O[C@@H]2C[C@@H](O[C@@H]([C@@H]2O)C)OC3=CC4=CC5=C(C(=O)[C@H](C(C5)[C@@H](C(=O)[C@H]([C@@H](C)O)O)OC)O[C@H]6C[C@H]([C@@H]([C@H](O6)C)O)O[C@H]7C[C@H]([C@@H]([C@H](O7)C)O)O[C@H]8C[C@]([C@@H]([C@H](O8)C)O)(C)O)C(=C4C(=C3C)O)O)O)O,Active,60,,,active antagonist,active antagonist,0.779114,-94.4798,active agonist,27.38,145.124,SIGMA
+99,144206361,151194,C1=CC=C2C(=C1)C(=NN=C2NC3=CC=C(C=C3)Cl)CC4=CC=NC=C4,Active,54,,,active antagonist,active antagonist,6.94386,-116.903,inactive,,0,NCGCChem
+100,144206365,5282180,CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C(=O)OC2=C(C3=C(C(=C2C)C)O[C@](CC3)(C)CCC[C@H](C)CCC[C@H](C)CCCC(C)C)C)/C)/C,Active,47,,,active antagonist,active antagonist,7.79114,-55.0035,inactive,,0,APAC
+101,144206375,71580,COC1=CC(=CC(=C1OC)OC)CCN.Cl,Active,41,,,active antagonist,active antagonist,83.7031,-51.5891,inactive,,0,RTI
+102,144206427,60196332,C[C@H](CC1=CC(=C(C=C1OC)Br)OC)N.Cl,Active,42,,,active antagonist,active antagonist,55.9548,-52.4272,inactive,,0,RTI
+103,144206460,56840936,C/C=C\1/C(=O)NC(C(=O)O[C@H]\2CC(=O)N[C@@H](C(=O)N[C@H](CSSCC/C=C2)C(=O)N1)C(C)C)C(C)C,Active,82,,,active antagonist,active antagonist,0.0128312,-110.02,active antagonist,13.3332,-114.614,ACC
+104,144206495,3003141,C1[C@H](S/C(=C(\C#N)/N2C=CN=C2)/S1)C3=C(C=C(C=C3)Cl)Cl,Active,58,,,active antagonist,active antagonist,1.61535,-97.2101,inactive,,0,ACC
+105,144206527,3003141,C1[C@H](S/C(=C(\C#N)/N2C=CN=C2)/S1)C3=C(C=C(C=C3)Cl)Cl,Active,59,,,active antagonist,active antagonist,0.980846,-91.8381,inactive,,0,APAC
+106,144206564,154256,CC1=C(N(C2=C1C=C(C=C2)O)CC3=CC=C(C=C3)OCCN4CCCCCC4)C5=CC=C(C=C5)O.CC(=O)O,Active,90,,,active antagonist,active antagonist,0.0203361,-136.394,inconclusive antagonist,3.1618,-45.0461,APAC
+107,144206598,5833,CC(=O)S[C@@H]1CC2=CC(=O)CC[C@@]2([C@@H]3[C@@H]1[C@@H]4CC[C@]5([C@]4(CC3)C)CCC(=O)O5)C,Active,45,,,active antagonist,active antagonist,24.6377,-67.2847,inactive,,0,Asinex
+108,144206608,6433339,CC[N+](CC)(CC)CCOC1=CC=C(C=C1)/C=C/C2=CC=CC=C2.[I-],Active,45,,,active antagonist,active antagonist,27.644,-75.0157,inactive,,0,BIOMOL
+109,144206642,23705,CCCCCCCCCCCC[N+](C)(C)CC1=CC=CC=C1.[Br-],Active,46,,,active antagonist,active antagonist,31.0171,-103.709,inconclusive antagonist,,,FLUKA
+110,144206661,1548955,CCN(CC)CCOC1=CC=C(C=C1)/C(=C(/C2=CC=CC=C2)\Cl)/C3=CC=CC=C3,Active,56,,,active antagonist,active antagonist,3.10171,-104.626,inconclusive antagonist,29.8493,-56.062,InterBioScreen
+111,144206675,71890,C1=CC=C2C(=C1)C(=NN=C2NN)CC3=CC=NC=C3,Active,47,,,active antagonist,active antagonist,20.3361,-87.9901,inactive,,0,InterBioScreen
+112,144206735,2723601,C1=NC2=C(N1)C(=S)N=C(N2)N,Active,49,,,active antagonist,active antagonist,0.643084,-38.8695,inactive,,0,Microsource
+113,144206798,68547,C1=CC(=CC=C1N=C=S)OC2=CC=C(C=C2)[N+](=O)[O-],Active,45,,,active antagonist,active antagonist,26.6032,-77.175,inactive,,0,Oakwood
+114,144206801,129209,CC1=C(C(=CC=C1)C)N(CCCC2=CN=CC=C2)C(=O)C(C)N.Cl.Cl,Active,52,,,active antagonist,active antagonist,7.79114,-101.756,inactive,,0,Pharmaron
+115,144206804,3003141,C1[C@H](S/C(=C(\C#N)/N2C=CN=C2)/S1)C3=C(C=C(C=C3)Cl)Cl,Active,55,,,active antagonist,active antagonist,2.11317,-87.3397,inactive,,0,Pharmaron
+116,144206851,119175,CC1C2=NN=C(N2C3=C(C=C(S3)CCC4=CC=C(C=C4)CC(C)C)C(=N1)C5=CC=CC=C5Cl)C,Active,44,,,active antagonist,active antagonist,23.7101,-54.2488,inconclusive antagonist,,,Pharmaron
+117,144206864,34870,C1CC2=CC=CC=C2C(C3=CC=CC=C31)NCCCCCCC(=O)O,Active,48,,,active antagonist,active antagonist,2.81796,-43.559,inactive,,0,Pharmaron
+118,144206877,66067,CCOP(=O)(CC)OC1=CC=C(C=C1)[N+](=O)[O-],Active,44,,,active antagonist,active antagonist,29.8493,-64.8585,inactive,,0,Pharmaron
+119,144206931,45356872,CC(C)(CCC[C@@](CC(=O)OC)(C(=O)O[C@H]1[C@H]2C3=CC4=C(C=C3CCN5C2(CCC5)C=C1OC)OCO4)O)O,Active,73,,,active antagonist,active antagonist,0.0228175,-91.6835,active antagonist,0.074978,-56.9431,Sequoia
+120,144207058,11273,C[C@]12CCC(=O)C(=C1CC[C@@H]3[C@@H]2CC[C@]4([C@H]3CCC4=O)C)O,Active,73,,,active antagonist,active antagonist,0.0530804,-99.3982,inactive,,0,SigmaAldrich
+121,144207105,641098,C1=CC=C(C=C1)/C=C/C2=CC=NC=C2,Active,45,,,active antagonist,active antagonist,21.1317,-66.1945,inactive,,0,SigmaAldrich
+122,144207127,135242,CC(=O)O.CN=C(N)NCCC[C@@H](C(=O)O)N,Active,43,,,active antagonist,active antagonist,29.8493,-43.447,inactive,,0,Tocris
+123,144207129,6197,C[C@H]1C[C@@H](C(=O)[C@@H](C1)[C@@H](CC2CC(=O)NC(=O)C2)O)C,Active,58,,,active antagonist,active antagonist,0.841267,-83.777,active antagonist,12.8312,-39.5891,Tocris
+124,144207177,3033151,C1CN(CCC1N2C3=CC=CC=C3NC2=S)CCCC(=O)C4=CC=C(C=C4)F,Active,43,,,active antagonist,active antagonist,18.1246,-28.4793,inactive,,0,Toronto Research
+125,144207180,22386467,C1=CC=C2C(=C1)C(=NN=C2NC3=CC=C(C=C3)Cl)CC4=CC=NC=C4.Cl.Cl,Active,47,,,active antagonist,active antagonist,17.7801,-87.2318,inactive,,0,Toronto Research
+126,144207197,4066,C1CN2CCC1C(C2)CN3C4=CC=CC=C4SC5=CC=CC=C53,Active,43,,,active antagonist,active antagonist,33.4915,-43.0299,inactive,,0,Vitas
+127,144207207,13676,CCOP(=S)(CC)SC1=CC=CC=C1,Active,43,,,active antagonist,active antagonist,31.707,-37.0355,inactive,,0,ChemService
+128,144207262,22833389,CCCCCCCCCCCC(=O)OC[C@H]([C@@H]1[C@@H]([C@H](CO1)OCCO)OCCO)O,Active,43,,,active antagonist,active antagonist,45.5914,-59.096,inconclusive antagonist,7.50843,-28.8197,SIGMA
+129,144207290,5842000,COP(=O)(OC)O/C(=C/Cl)/C1=CC(=C(C=C1Cl)Cl)Cl,Active,47,,,active antagonist,active antagonist,20.4174,-91.1857,inactive,,0,ChemService
+130,144207333,2734223,CCCCCCCCN1C=C[N+](=C1)C.[Cl-],Active,43,,,active antagonist,active antagonist,54.0951,-59.4941,inactive,,0,Io-li-tec
+131,144207374,99953,CCCCCCCCCOCC1CO1,Active,41,,,active antagonist,active antagonist,79.9007,-35.6609,inactive,,0,SIGMA
+132,144207434,22571,CCCCC(CC)COC(=O)C(=C(C1=CC=CC=C1)C2=CC=CC=C2)C#N,Active,45,,,active antagonist,active antagonist,13.6854,-50.5844,inconclusive antagonist,,,SIGMA
+133,144207513,1548943,CC(C)/C=C/CCCCC(=O)NCC1=CC(=C(C=C1)O)OC,Active,43,,,active antagonist,active antagonist,56.1884,-73.8772,inactive,,0,SIGMA
+134,144207595,3068143,CC[C@H]1CN2CCC3=CC(=C(C=C3[C@@H]2C[C@@H]1C[C@@H]4C5=CC(=C(C=C5CCN4)OC)OC)OC)OC.Cl.Cl,Active,69,,,active antagonist,active antagonist,0.154022,-101.128,active antagonist,4.51075,-77.1976,Sensient
+135,144207684,62130,CCN1C2=C(C=C(C=C2)N)C3=CC=CC=C31.Cl,Active,42,,,active antagonist,active antagonist,73.3088,-47.7801,inactive,,0,Chemos
+136,144207711,197873,C1=CC(=CC2=NC3=C(C=CC(=C3)N)C=C21)N.Cl,Active,56,,,active antagonist,active antagonist,5.44827,-122.433,active agonist,4.85577,817.757,SigmaAldrich
+137,144207757,102724,C1CC2C(C1)C3CC2CC3(C4=CC=C(C=C4)O)C5=CC=C(C=C5)O,Active,61,,,active antagonist,active antagonist,1.71953,-119.52,active antagonist,30.578,-77.7938,Alfa Aesar
+138,144207758,6799,C1=CC=C(C=C1)C(=O)C2=C(C=CC(=C2)Cl)O,Active,43,,,active antagonist,active antagonist,46.0993,-72.9611,inactive,,0,SigmaAldrich
+139,144207774,3015167,CCCCCCCC[P+](CCCCCCCC)(CCCCCCCC)CCCCCCCC.[Br-],Active,61,,,active antagonist,active antagonist,1.71239,-113.867,active antagonist,7.08383,-100.124,Cytec
+140,144207788,12040509,CCCCCCCCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,Active,50,,,active antagonist,active antagonist,6.66791,-82.6206,active antagonist,24.5842,-58.71,Io-li-tec
+141,144207791,22239085,CCCCCCCCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[O-],Active,49,,,active antagonist,active antagonist,14.5977,-98.7423,inactive,,0,Io-li-tec
+142,144207792,53316407,CCCCCCCCCCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,Active,56,,,active antagonist,active antagonist,4.36294,-110.9,active antagonist,13.7968,-116.156,Io-li-tec
+143,144207793,2734227,CCCCCCCCCCCCN1C=C[N+](=C1)C.[Cl-],Active,53,,,active antagonist,active antagonist,6.37806,-104.914,active antagonist,19.4098,-62.5565,Io-li-tec
+144,144207794,10250129,CCCCCCCCCCCCN1C=C[N+](=C1)C.F[P-](F)(F)(F)(F)F,Active,56,,,active antagonist,active antagonist,5.04574,-117.644,active antagonist,31.8365,-68.3651,Io-li-tec
+145,144207798,2734231,CCCCCCCCCCCCCCCCN1C=C[N+](=C1)C.[Cl-],Active,54,,,active antagonist,active antagonist,7.86053,-125.426,active antagonist,32.5176,-87.2008,Io-li-tec
+146,144207840,5284376,CC(C)N(C(C)C)C(=O)SC/C(=C/Cl)/Cl,Active,46,,,active antagonist,active antagonist,21.8224,-83.8886,inconclusive antagonist,,,ChemService
+147,144207877,9483,C1=CC(=CC(=C1)N=C=O)C(F)(F)F,Active,42,,,active antagonist,active antagonist,72.1369,-72.6223,inactive,,0,SigmaAldrich
+148,144207893,11460221,[B-](F)(F)(F)F.CCCCCCCCN1C=C[N+](=C1)C,Active,44,,,active antagonist,active antagonist,30.6067,-61.7132,inactive,,0,Io-li-tec
+149,144207906,16212746,CCCCCCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[O-],Active,44,,,active antagonist,active antagonist,33.3513,-70.9914,inactive,,0,Io-li-tec
+150,144207966,2734243,CCCCCCCCN1C=C[N+](=C1)C.F[P-](F)(F)(F)(F)F,Active,43,,,active antagonist,active antagonist,50.971,-73.0033,inactive,,0,Io-li-tec
+151,144207969,68589,C1=CC(=CC=C1COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl)Cl.[N+](=O)(O)[O-],Active,64,,,active antagonist,active antagonist,0.297087,-94.9471,active antagonist,42.7776,-95.728,SIGMA
+152,144207986,2723598,C1=CC=C2C(=C1)C(=C3C=CC=CC3=N2)N.O.Cl,Active,55,,,active antagonist,active antagonist,7.03318,-121.531,active agonist,18.0088,680.562,SIGMA
+153,144207995,93221,CC1=CC(=C(C(=C1CN2C(=O)N(C(=O)N(C2=O)CC3=C(C(=C(C=C3C)C(C)(C)C)O)C)CC4=C(C(=C(C=C4C)C(C)(C)C)O)C)C)O)C(C)(C)C,Active,45,,,active antagonist,active antagonist,19.3312,-59.149,inactive,,0,SigmaAldrich
+154,144208040,12184591,CCCCCCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,Active,46,,,active antagonist,active antagonist,26.4651,-89.1373,inactive,,0,Io-li-tec
+155,144208093,7230,CC(C)(C)NSC1=NC2=CC=CC=C2S1,Active,42,,,active antagonist,active antagonist,42.3688,-35.7662,inactive,,0,SigmaAldrich
+156,144208108,13636,C1=C(C(=C(C(=C1Cl)Cl)O)Cl)Cl,Active,42,,,active antagonist,active antagonist,80.8141,-70.7617,inactive,,0,SIGMA
+157,144208141,449459,CC/C(=C(\C1=CC=C(C=C1)O)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3,Active,88,,,active antagonist,active antagonist,0.0159882,-128.458,active antagonist,37.1934,-113.578,SigmaAldrich
+158,144208183,7578,C1=CC(=CC=C1N)OC2=CC=C(C=C2)Cl,Active,48,,,active antagonist,active antagonist,26.6963,-116.881,inactive,,0,SigmaAldrich
+159,144208191,8569,COC1=CC(=C(C=C1)C(=O)C2=CC=CC=C2O)O,Active,42,,,active antagonist,active antagonist,54.3165,-52.2445,inactive,,0,SigmaAldrich
+160,144208199,11247,CC(=O)[O-].[Tl+],Active,44,,,active antagonist,active antagonist,59.1882,-135.297,inactive,,0,SigmaAldrich
+161,144208226,2734117,CCCCCCCC[N+](CCCCCCCC)(CCCCCCCC)CCCCCCCC.[Br-],Active,57,,,active antagonist,active antagonist,2.52372,-99.8883,active antagonist,13.1434,-127.898,SIGMA
+162,144208274,6436079,CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C\C=O)/C)/C,Active,55,,,active antagonist,active antagonist,2.8994,-95.8101,inconclusive antagonist,40.9552,-109.728,SIGMA
+163,144208356,6197,C[C@H]1C[C@@H](C(=O)[C@@H](C1)[C@@H](CC2CC(=O)NC(=O)C2)O)C,Active,63,,,active antagonist,active antagonist,0.341666,-93.0363,inconclusive antagonist,6.81713,-36.9624,EMD Chemicals
+164,144208357,62770,C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)C)O)N)O.Cl,Active,64,,,active antagonist,active antagonist,0.852253,-116.72,active antagonist,7.74286,-148.972,LKT Lab
+165,144208367,70038,C1=CC=C(C(=C1)C(=O)C2=CC=CC=C2O)O,Active,43,,,active antagonist,active antagonist,23.1823,-33.3255,inactive,,0,SigmaAldrich
+166,144208441,2733526,CC/C(=C(\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3,Active,58,,,active antagonist,active antagonist,2.96644,-112.908,inconclusive antagonist,20.6016,-55.9125,SigmaAldrich
+167,144208529,5333,C1=CC(=CC=C1N)S(=O)(=O)N,Active,46,,,active antagonist,active antagonist,12.2592,-56.5242,inactive,,0,SIGMA
+168,144208574,4169,CCC1=CC=CC(=C1N(C(C)COC)C(=O)CCl)C,Active,42,,,active antagonist,active antagonist,57.6044,-54.4704,inactive,,0,SigmaAldrich
+169,144208664,73665,CCCN(CCOC1=C(C=C(C=C1Cl)Cl)Cl)C(=O)N2C=CN=C2,Active,59,,,active antagonist,active antagonist,1.34519,-97.2602,active antagonist,67.4194,-40.0648,SIGMA
+170,144208667,43234,CCCC1COC(O1)(CN2C=NC=N2)C3=C(C=C(C=C3)Cl)Cl,Active,46,,,active antagonist,active antagonist,31.1995,-90.3745,inconclusive antagonist,,,SIGMA
+171,144208682,73675,C[Si](CN1C=NC=N1)(C2=CC=C(C=C2)F)C3=CC=C(C=C3)F,Active,68,,,active antagonist,active antagonist,0.446893,-117.336,inconclusive antagonist,63.1253,-95.0586,SIGMA
+172,144208729,47326,CC1(C(C1(C)C)C(=O)OC(C#N)C2=CC(=CC=C2)OC3=CC=CC=C3)C,Active,45,,,active antagonist,active antagonist,33.3176,-87.8605,inactive,,0,SIGMA
+173,144208747,8816,CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Br-],Active,57,,,active antagonist,active antagonist,4.03425,-117.74,active antagonist,30.8387,-106.906,TCI
+174,144208749,37175,C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl,Active,65,,,active antagonist,active antagonist,0.372319,-102.717,active antagonist,71.4905,-34.786,SigmaAldrich
+175,144208795,13806,CCNC1=CC2=C(C=C1C)C(=C3C=C(C(=[NH+]CC)C=C3O2)C)C4=CC=CC=C4C(=O)OCC.[Cl-],Active,70,,,active antagonist,active antagonist,0.136298,-104.098,active antagonist,0.928586,-141.43,SigmaAldrich
+176,144208829,43226,C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)(C3=CN=CN=C3)O)Cl,Active,43,,,active antagonist,active antagonist,36.3396,-50.9692,inactive,,0,SIGMA
+177,144208842,41385,CC1=C(S(=O)(=O)CCS1(=O)=O)C,Active,42,,,active antagonist,active antagonist,67.336,-53.3803,inactive,,0,ChemService
+178,144208876,2724385,C[C@@H]1[C@H]([C@H](C[C@@H](O1)O[C@@H]2[C@H](O[C@H](C[C@@H]2O)O[C@@H]3[C@H](O[C@H](C[C@@H]3O)O[C@H]4CC[C@]5([C@@H](C4)CC[C@@H]6[C@@H]5C[C@H]([C@]7([C@@]6(CC[C@@H]7C8=CC(=O)OC8)O)C)O)C)C)C)O)O,Active,57,,,active antagonist,active antagonist,0.318689,-67.1225,inactive,,0,SIGMA
+179,144208920,8813,C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N.C(CS(=O)(=O)O)O.C(CS(=O)(=O)O)O,Active,45,,,active antagonist,active antagonist,27.1672,-63.3728,inactive,,0,SIGMA
+180,144208960,11057,CN(C)C1=CC=C(C=C1)C(=C2C=CC(=[N+](C)C)C=C2)C3=CC=C(C=C3)N(C)C.[Cl-],Active,62,,,active antagonist,active antagonist,0.751125,-103.01,active antagonist,3.91182,-133.406,SigmaAldrich
+181,144209037,44073,C1=CC(=C(C=C1C(F)(F)F)Cl)OC2=CC(=C(C=C2)[N+](=O)[O-])C(=O)O,Active,45,,,active antagonist,active antagonist,6.89385,-36.6457,inactive,,0,ChemService
+182,144209094,38479,CCC(CC)NC1=C(C=C(C(=C1[N+](=O)[O-])C)C)[N+](=O)[O-],Active,42,,,active antagonist,active antagonist,61.9396,-52.6411,inactive,,0,SigmaAldrich
+183,144209106,11860,C1=C(C=C(C(=C1Cl)N)Cl)N,Active,42,,,active antagonist,active antagonist,58.3508,-61.4827,inactive,,0,SIGMA
+184,144209113,6336,CCCCC(CN1C=NC=N1)(C#N)C2=CC=C(C=C2)Cl,Active,54,,,active antagonist,active antagonist,4.14784,-95.5255,inactive,,0,SigmaAldrich
+185,144209144,9076,CCOC1=CC=C(C=C1)N,Active,42,,,active antagonist,active antagonist,58.9487,-38.8079,inactive,,0,SIGMA
+186,144209159,8560,C=CCOC(=O)C1=CC=CC=C1C(=O)OCC=C,Active,42,,,active antagonist,active antagonist,49.6887,-39.2075,inactive,,0,SIGMA
+187,144209163,2268,COP(=S)(OC)SCN1C(=O)C2=CC=CC=C2N=N1,Active,42,,,active antagonist,active antagonist,69.8981,-45.4872,inactive,,0,SIGMA
+188,144209225,27465,C1=C(C(=CC(=C1Cl)N)Cl)C2=CC(=C(C=C2Cl)N)Cl,Active,51,,,active antagonist,active antagonist,12.6614,-115.619,active antagonist,38.5316,-90.8968,Sensient
+189,144209233,7579,C1=CC(=CC=C1N)OC2=CC=C(C=C2)N,Active,43,,,active antagonist,active antagonist,62.0019,-83.6669,inactive,,0,SIGMA
+190,144209255,5757,C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C3C=CC(=C4)O,Active,42,,,active antagonist,active antagonist,48.459,-43.3169,inactive,,0,TCI
+191,144209268,2733525,CC/C(=C(\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3.C(C(=O)O)C(CC(=O)O)(C(=O)O)O,Active,62,,,active antagonist,active antagonist,2.16679,-129.352,active antagonist,34.3413,-99.016,SigmaAldrich
+192,144209339,2286,CC(C)(C1=CC=C(C=C1)OCC2CO2)C3=CC=C(C=C3)OCC4CO4,Active,42,,,active antagonist,active antagonist,72.2163,-85.8265,inactive,,0,SigmaAldrich
+193,144209364,26177,C(C(CCl)OP(=O)(OC(CCl)CCl)OC(CCl)CCl)Cl,Active,43,,,active antagonist,active antagonist,54.2058,-56.0137,inactive,,0,SIGMA
+194,144209433,441140,C[C@@H]1CC(=O)C=C([C@]12C(=O)C3=C(O2)C(=C(C=C3OC)OC)Cl)OC,Active,45,,,active antagonist,active antagonist,23.2061,-62.1034,inactive,,0,SIGMA
+195,144209440,4837,C1CNCCN1,Active,42,,,active antagonist,active antagonist,60.5682,-40.5741,inactive,,0,SigmaAldrich
+196,144209492,4793,CCOP(=S)(OCC)SCN1C2=C(C=C(C=C2)Cl)OC1=O,Active,42,,,active antagonist,active antagonist,63.1019,-70.9336,inactive,,0,SIGMA
+197,144209507,16043,CC(C)(C)C1=C(C=CC(=C1)O)O,Active,43,,,active antagonist,active antagonist,54.4827,-73.4024,inconclusive antagonist,,,SigmaAldrich
+198,144209529,86102,CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,Active,49,,,active antagonist,active antagonist,14.3946,-93.6791,active antagonist,69.4275,-43.9245,Bayer Agriculture
+199,144209550,5362,CCCCC1(C(=O)N(N(C1=O)C2=CC=CC=C2)C3=CC=CC=C3)COC(=O)CCC(=O)O,Active,49,,,active antagonist,active antagonist,7.23584,-69.1319,inactive,,0,SigmaAldrich
+200,144209559,11289,COC1=CC=C(C=C1)C(=C(C2=CC=C(C=C2)OC)Cl)C3=CC=C(C=C3)OC,Active,48,,,active antagonist,active antagonist,7.95632,-68.0917,inactive,,0,SIGMA
+201,144209574,12472902,C1=CC(=C(C=C1C(=O)C2=C(C=C(C=C2)O)O)O)O,Active,43,,,active antagonist,active antagonist,54.3719,-55.9416,inconclusive antagonist,,,Sensient
+202,144209591,6944,CC1=CC=CC=C1[N+](=O)[O-],Active,45,,,active antagonist,active antagonist,19.5673,-63.0536,inactive,,0,SIGMA
+203,144209599,2723601,C1=NC2=C(N1)C(=S)N=C(N2)N,Active,49,,,active antagonist,active antagonist,0.438294,-35.8706,inactive,,0,SigmaAldrich
+204,144209622,9395,CCOP(=O)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],Active,45,,,active antagonist,active antagonist,29.2773,-76.5987,inactive,,0,Crescent
+205,144209677,177,CC=O,Active,57,,,active antagonist,active antagonist,3.59553,-112.365,active antagonist,35.9553,-85.8159,SIGMA
+206,144209680,457193,C[C@@H]1[C@@H](C(=O)N[C@@H](C(=O)N2CCC[C@H]2C(=O)N(CC(=O)N([C@H](C(=O)O1)C(C)C)C)C)C(C)C)NC(=O)C3=C4C(=C(C=C3)C)OC5=C(C(=O)C(=C(C5=N4)C(=O)N[C@H]6[C@H](OC(=O)[C@@H](N(C(=O)CN(C(=O)[C@@H]7CCCN7C(=O)[C@H](NC6=O)C(C)C)C)C)C(C)C)C)N)C,Active,89,,,active antagonist,active antagonist,0.0036097,-112.712,active antagonist,10.1735,-81.5078,SRI International
+207,144209681,443939,C[C@H]1[C@H]([C@H](C[C@@H](O1)O[C@H]2C[C@@](CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O.Cl,Active,61,,,active antagonist,active antagonist,1.65519,-115.932,active antagonist,12.1763,-120.598,Toronto Research
+208,144209706,13816,CC1=C(C=CC(=C1)C2=CC(=C(C=C2)N=NC3=C(C4=CC=CC=C4C(=C3)S(=O)(=O)[O-])N)C)N=NC5=C(C6=CC=CC=C6C(=C5)S(=O)(=O)[O-])N.[Na+].[Na+],Active,44,,,active antagonist,active antagonist,35.9028,-62.501,inconclusive antagonist,,,SIGMA
+209,144209723,104827,CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2.O.O.O.[Cl-],Active,56,,,active antagonist,active antagonist,1.85696,-87.2481,active antagonist,14.7503,-107.074,Acros
+210,144209736,,,Active,57,,,active antagonist,active antagonist,3.77991,-118.845,active antagonist,32.4201,-114.419,SIGMA
+211,144209782,10754,C1=CC(=CC=C1C2=CC=C(C=C2)N)N.Cl.Cl,Active,51,,,active antagonist,active antagonist,2.71019,-62.8695,inactive,,0,SigmaAldrich
+212,144209796,23892,C1=CC(=C(C=C1C2=CC(=C(C=C2)N)N)N)N.Cl.Cl.Cl.Cl,Active,48,,,active antagonist,active antagonist,7.67241,-68.0288,active antagonist,43.1451,-65.2171,SIGMA
+213,144209801,5035,C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O,Active,94,,,active antagonist,active antagonist,0.00263047,-119.233,active antagonist,34.4112,-102.873,SigmaAldrich
+214,144209802,104741,C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)[C@@H](CC4=C3C=CC(=C4)O)CCCCCCCCCS(=O)CCCC(C(F)(F)F)(F)F,Active,81,,,active antagonist,active antagonist,0.0108597,-105.351,inactive,,0,SigmaAldrich
+215,144209821,2734225,CCCCCCCCCCN1C=C[N+](=C1)C.[Cl-],Active,47,,,active antagonist,active antagonist,20.8521,-96.865,inactive,,0,Io-li-tec
+216,144209822,10044526,CCCCCCCCCCN1C=C[N+](=C1)C.F[P-](F)(F)(F)(F)F,Active,52,,,active antagonist,active antagonist,4.66345,-85.3833,inconclusive antagonist,30.5756,-43.2994,Io-li-tec
+217,144209825,2775940,CCCCCCCCCCN1C=C[N+](=C1C)CCCCCCCCCC.[Cl-],Active,57,,,active antagonist,active antagonist,3.57575,-115.254,active antagonist,25.3143,-130.899,Io-li-tec
+218,144209827,46226173,[B-](F)(F)(F)F.CCCCCCCCCCCCN1C=C[N+](=C1)C,Active,56,,,active antagonist,active antagonist,3.06067,-104.779,active antagonist,37.0809,-96.1324,Io-li-tec
+219,144209828,23160059,CCCCCCCCCCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[O-],Active,57,,,active antagonist,active antagonist,2.57264,-104.532,active antagonist,55.4259,-111.907,Io-li-tec
+220,144209836,53316406,CCN1C=C[N+](=C1)C.CCOP(=O)([O-])OCC,Active,59,,,active antagonist,active antagonist,3.03888,-121.89,active antagonist,28.1436,-125.868,Io-li-tec
+221,144209845,18506491,[B-](F)(F)(F)F.CCCCCCCCCCCCCCCCN1C=C[N+](=C1)C,Active,55,,,active antagonist,active antagonist,6.16905,-120.975,active antagonist,43.6735,-113.474,Io-li-tec
+222,144209846,60196375,CCCCCCCCCCCCCCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,Active,59,,,active antagonist,active antagonist,2.34679,-115.115,active antagonist,9.34274,-125.832,Io-li-tec
+223,144209850,24944555,CCCCCCCCCCCCCCCCCCN1C=C[N+](=C1)C.F[P-](F)(F)(F)(F)F,Active,60,,,active antagonist,active antagonist,3.16423,-130.225,active antagonist,10.3976,-82.1048,Io-li-tec
+224,144209856,60196379,CCCCCCCCCCCCCCN1C=C[N+](=C1)C.C(F)(F)(F)S(=O)(=O)[N-]S(=O)(=O)C(F)(F)F,Active,59,,,active antagonist,active antagonist,2.73616,-116.216,active antagonist,8.99099,-126.434,Io-li-tec
+225,144209858,2734229,CCCCCCCCCCCCCCN1C=C[N+](=C1)C.[Cl-],Active,54,,,active antagonist,active antagonist,4.44676,-100.485,active antagonist,33.9921,-90.046,Io-li-tec
+226,144210122,10789,C1=CC=C(C(=O)C=C1)O,Active,45,,,active antagonist,active antagonist,13.9503,-52.1005,active antagonist,55.5371,-64.3099,SIGMA
+227,144210165,9164,C1=CC=C2C=C3C4=CC=CC=C4C5=CC=CC=C5C3=CC2=C1,Active,47,,,active antagonist,active antagonist,2.17782,-35.6709,inactive,,0,SIGMA
+228,144210181,6527,CC1=CC=CC=C1OP(=O)(OC2=CC=CC=C2C)OC3=CC=CC=C3C,Active,44,,,active antagonist,active antagonist,29.6043,-53.2991,inconclusive antagonist,,,Fisher
+229,144210398,8174,CCCCCCCCCCO,Active,42,,,active antagonist,active antagonist,46.7296,-32.881,inactive,,0,SIGMA
+230,144210453,7579,C1=CC(=CC=C1N)OC2=CC=C(C=C2)N,Active,43,,,active antagonist,active antagonist,56.6142,-98.8244,inactive,,0,SIGMA
+231,144210545,9865233,CC(C)(C1=NC2=NC=C(N2N=C1)C3=CC(=C(C=C3)F)C4=C(C=CC=C4F)C#N)O,Active,43,,,active antagonist,active antagonist,58.829,-66.3573,inactive,,0,Pharma
+232,144210559,9849616,CCC1=C(N(N=C1C(=O)NN2CCCCC2)C3=C(C=C(C=C3)Cl)Cl)C4=CC=C(C=C4)Br,Active,43,,,active antagonist,active antagonist,68.5896,-92.0591,inactive,,0,Pharma
+233,144210563,53316380,CCOC(=O)[C@]1([C@H](C2=CC=CC=C2O1)N)C3=CC=CC=C3,Active,45,,,active antagonist,active antagonist,38.5708,-96.1602,inactive,,0,Pharma
+234,144210588,53232,CC[C@H](C)C(=O)O[C@H]1C[C@H](C=C2[C@H]1[C@H]([C@H](C=C2)C)CC[C@@H]3C[C@H](CC(=O)O3)O)C,Active,45,,,active antagonist,active antagonist,14.1486,-52.9985,inactive,,0,USP
+235,144210594,2733525,CC/C(=C(\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3.C(C(=O)O)C(CC(=O)O)(C(=O)O)O,Active,61,,,active antagonist,active antagonist,2.27139,-123.112,active antagonist,20.2438,-101.143,SIGMA
+236,144210595,2723601,C1=NC2=C(N1)C(=S)N=C(N2)N,Active,50,,,active antagonist,active antagonist,0.33082,-37.3674,inactive,,0,SIGMA
+237,144210607,445354,CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/CO)/C)/C,Active,46,,,active antagonist,active antagonist,10.2131,-55.4084,inconclusive antagonist,72.3029,-91.3159,LightBiologicals
+238,144210632,8813,C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N.C(CS(=O)(=O)O)O.C(CS(=O)(=O)O)O,Active,44,,,active antagonist,active antagonist,31.6045,-59.3806,inactive,,0,SIGMA
+239,144210674,8152,CCCCCCCCCCCC[N+](C)(C)C.[Cl-],Active,47,,,active antagonist,active antagonist,18.6034,-88.4598,inconclusive antagonist,,,SIGMA
+240,144210718,54454,CCC(C)(C)C(=O)O[C@H]1C[C@H](C=C2[C@H]1[C@H]([C@H](C=C2)C)CC[C@@H]3C[C@H](CC(=O)O3)O)C,Active,45,,,active antagonist,active antagonist,17.2289,-54.6818,inactive,,0,Toronto Research
+241,144210733,2812,C1=CC=C(C=C1)C(C2=CC=CC=C2)(C3=CC=CC=C3Cl)N4C=CN=C4,Active,56,,,active antagonist,active antagonist,5.44827,-121.403,inconclusive antagonist,48.5577,-89.5515,LightBiologicals
+242,144210753,13961743,CC(C)OC1=C(SC2=C1C=C(C=C2)OC)C(=O)NC3=NN=N[N-]3.[Na+],Active,44,,,active antagonist,active antagonist,34.2365,-54.653,inactive,,0,Pfizer
+243,144210756,9935274,CC1=NC=CN1C2=CC=C(C=C2)SC3=CC=CC(=C3)C4(CCOCC4)C(=O)N.CS(=O)(=O)O,Active,45,,,active antagonist,active antagonist,48.5577,-115.699,inactive,,0,Pfizer
+244,144210805,86102,CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O,Active,44,,,active antagonist,active antagonist,52.4314,-91.2453,inactive,,0,LightBiologicals
+245,144210818,6001,CC1=C2C=CC3=CC=CC=C3C2=C(C4=CC=CC=C14)C,Active,46,,,active antagonist,active antagonist,25.7785,-80.6042,inconclusive antagonist,21.6899,-28.2425,LightBiologicals
+246,144210821,3485262,CN(C)C(=S)[S-].CN(C)C(=S)[S-].[Zn+2],Active,75,,,active antagonist,active antagonist,0.055157,-108.196,active antagonist,0.310171,-126.618,LightBiologicals
+247,144210854,3397,CC(C)C(=O)NC1=CC(=C(C=C1)[N+](=O)[O-])C(F)(F)F,Active,42,,,active antagonist,active antagonist,63.5221,-45.7805,inactive,,0,SIGMA
+248,144210855,5770,CO[C@H]1[C@@H](C[C@@H]2CN3CCC4=C([C@H]3C[C@@H]2[C@@H]1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,Active,44,,,active antagonist,active antagonist,56.025,-120.227,inactive,,0,SIGMA
+249,144210857,2733526,CC/C(=C(\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3,Active,57,,,active antagonist,active antagonist,5.24314,-127.998,active antagonist,43.2771,-115.815,SIGMA
+250,144210876,31362,CC(C)CC(C)(C#CC(C)(CC(C)C)O)O,Active,42,,,active antagonist,active antagonist,43.2771,-28.4356,inactive,,0,SIGMA
+251,144210878,6618,CC(C)(C1=CC(=C(C(=C1)Br)O)Br)C2=CC(=C(C(=C2)Br)O)Br,Active,47,,,active antagonist,active antagonist,25.841,-98.9285,inconclusive antagonist,,,SIGMA
+252,144210888,11057,CN(C)C1=CC=C(C=C1)C(=C2C=CC(=[N+](C)C)C=C2)C3=CC=C(C=C3)N(C)C.[Cl-],Active,60,,,active antagonist,active antagonist,1.04614,-98.2974,active antagonist,6.60073,-149.414,LightBiologicals
+253,144210930,12358480,C1[C@@H]2[C@@H]3[C@H]([C@H]1[C@H]4[C@@H]2O4)[C@@]5(C(=C([C@]3(C5(Cl)Cl)Cl)Cl)Cl)Cl,Active,43,,,active antagonist,active antagonist,29.4544,-35.6059,inactive,,0,SIGMA
+254,144210934,21387,C1=CC2=C3C(=C1)C=CC4=C(C=CC(=C43)C=C2)O,Active,43,,,active antagonist,active antagonist,54.4827,-59.3634,inconclusive agonist,9.68854,22.3385,SIGMA
+255,144210946,833466,C=CCC1=C(C=CC(=C1)S(=O)(=O)C2=CC(=C(C=C2)O)CC=C)O,Active,43,,,active antagonist,active antagonist,54.4827,-91.2117,inactive,,0,Nippon
+256,144210948,11723708,CC(C)C1=C(C(=CC=C1)C(C)C)N2C(=O)C3=C(C2=O)C=C(C=C3)O,Active,45,,,active antagonist,active antagonist,43.2771,-110.861,active agonist,45.8415,213.373,CalBioChem
+257,144210967,43226,C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)(C3=CN=CN=C3)O)Cl,Active,47,,,active antagonist,active antagonist,20.0875,-82.7485,inactive,,0,SIGMA
+258,144210969,75893,C1=C(C=C(C(=C1[N+](=O)[O-])N)Cl)Cl,Active,45,,,active antagonist,active antagonist,7.69588,-34.5948,inactive,,0,SIGMA
+259,144210972,27189,CCN(CC)C(=O)C(C)OC1=CC=CC2=CC=CC=C21,Active,43,,,active antagonist,active antagonist,45.8415,-58.1068,inactive,,0,SIGMA
+260,144211022,91744,CC1=CSC(=C1N(C(C)COC)C(=O)CCl)C,Active,43,,,active antagonist,active antagonist,50.4574,-77.5173,inactive,,0,SIGMA
+261,144211035,34526,CCN(CC)C1=NC(=CC(=N1)OP(=S)(OC)OC)C,Active,42,,,active antagonist,active antagonist,68.5896,-52.2771,inactive,,0,SIGMA
+262,144211037,37175,C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl,Active,63,,,active antagonist,active antagonist,0.400798,-92.6927,inactive,,0,SIGMA
+263,144211040,107720,COC(=O)[C@]12CC3=C(C1=NN(CO2)C(=O)N(C4=CC=C(C=C4)OC(F)(F)F)C(=O)OC)C=CC(=C3)Cl,Active,44,,,active antagonist,active antagonist,14.8407,-32.7418,inactive,,0,Chemservice
+264,144211077,44073,C1=CC(=C(C=C1C(F)(F)F)Cl)OC2=CC(=C(C=C2)[N+](=O)[O-])C(=O)O,Active,42,,,active antagonist,active antagonist,65.9401,-37.4622,inactive,,0,SIGMA
+265,144211078,73675,C[Si](CN1C=NC=N1)(C2=CC=C(C=C2)F)C3=CC=C(C=C3)F,Active,60,,,active antagonist,active antagonist,0.71273,-89.2757,inconclusive antagonist,,,SIGMA
+266,144211112,86138,C1=CC=C(C=C1)C(CCC2=CC=C(C=C2)Cl)(CN3C=NC=N3)C#N,Active,45,,,active antagonist,active antagonist,33.082,-83.4241,inconclusive antagonist,,,SIGMA
+267,144211128,4793,CCOP(=S)(OCC)SCN1C2=C(C=C(C=C2)Cl)OC1=O,Active,43,,,active antagonist,active antagonist,40.0798,-48.409,inactive,,0,SIGMA
+268,144211152,107080,CC(C)C(C(C)(C)COC(=O)C1=CC=CC=C1)OC(=O)C2=CC=CC=C2,Active,42,,,active antagonist,active antagonist,71.273,-49.4163,inactive,,0,SIGMA
+269,144211183,91699,CCCOCC(=NC1=C(C=C(C=C1)Cl)C(F)(F)F)N2C=CN=C2,Active,74,,,active antagonist,active antagonist,0.0504061,-103.266,active antagonist,25.2629,-106.405,SIGMA
+270,144211203,39385,CC(C)(C)C(=O)C(N1C=NC=N1)OC2=CC=C(C=C2)Cl,Active,43,,,active antagonist,active antagonist,54.4273,-92.094,inactive,,0,SIGMA
+271,144211213,91655,CCOP(=S)(OCC)OC(C(Cl)(Cl)Cl)Cl,Active,43,,,active antagonist,active antagonist,54.4827,-59.1718,inactive,,0,Chemservice
+272,144211214,54745,CCCCCCC(C)OC(=O)COC1=NC(=C(C(=C1Cl)N)Cl)F,Active,43,,,active antagonist,active antagonist,61.1306,-79.8275,inactive,,0,SIGMA
+273,144211223,31200,CC1=C(C=CC(=C1)OP(=S)(OC)OC)[N+](=O)[O-],Active,42,,,active antagonist,active antagonist,50.4574,-42.2065,inactive,,0,SIGMA
+274,144211227,28935,COP(=S)(OC)OC1=CC(=C(C=C1Cl)I)Cl,Active,45,,,active antagonist,active antagonist,21.6899,-57.4767,inactive,,0,LightBiologicals
+275,144211264,3317081,C1=CC=C(C(=C1)C2C(O2)(CN3C=NC=N3)C4=CC=C(C=C4)F)Cl,Active,54,,,active antagonist,active antagonist,4.85577,-102.528,inactive,,0,Sigma DiscoveryCPR
+276,144211272,62210,CCN(CC1=C(C=CC=C1Cl)F)C2=C(C=C(C=C2[N+](=O)[O-])C(F)(F)F)[N+](=O)[O-],Active,45,,,active antagonist,active antagonist,35.7211,-89.4149,inactive,,0,SIGMA
+277,144211277,14145,CN(C)S(=O)(=O)N(C1=CC=CC=C1)SC(F)(Cl)Cl,Active,56,,,active antagonist,active antagonist,4.85577,-119.994,active antagonist,15.956,-118.132,LightBiologicals
+278,144211299,4169,CCC1=CC=CC(=C1N(C(C)COC)C(=O)CCl)C,Active,42,,,active antagonist,active antagonist,58.829,-41.5331,inactive,,0,SIGMA
+279,144211311,86222,CCOC(=O)C(CC1=CC(=C(C=C1Cl)F)N2C(=O)N(C(=N2)C)C(F)F)Cl,Active,43,,,active antagonist,active antagonist,54.4827,-75.1199,inactive,,0,ChemService
+280,144211312,80277,C1=CC(=C(C=C1Cl)Cl)C(CN2C=NC=N2)COC(C(F)F)(F)F,Active,53,,,active antagonist,active antagonist,7.36097,-104.701,active antagonist,51.1213,-76.771,ChemService
+281,144211366,86398,C1=CC(=C2C(=C1)OC(O2)(F)F)C3=CNC=C3C#N,Active,43,,,active antagonist,active antagonist,43.2771,-59.9463,inactive,,0,SIGMA
+282,144211380,21804,CCOP(=O)(OCC)OC1=NC(=C(C=C1Cl)Cl)Cl,Active,48,,,active antagonist,active antagonist,21.5577,-99.5753,inactive,,0,ChemService
+283,144211402,50897,CCCCOC(=O)C(C)OC1=CC=C(C=C1)OC2=NC=C(C=C2)C(F)(F)F,Active,44,,,active antagonist,active antagonist,6.11306,-28.0678,inactive,,0,SIGMA
+284,144211407,91754,CC(C)(C)C1=CC=C(C=C1)CSC2=C(C(=O)N(N=C2)C(C)(C)C)Cl,Active,43,,,active antagonist,active antagonist,64.7528,-91.0311,inactive,,0,SIGMA
+285,144211410,10403199,C[C@@]1(C(=O)N(C(=N1)SC)NC2=CC=CC=C2)C3=CC=CC=C3,Active,43,,,active antagonist,active antagonist,26.278,-33.5139,inactive,,0,SIGMA
+286,144211423,28999,CCCCC(CC)C(=O)OCCOCCOCCOCCOC(=O)C(CC)CCCC,Active,42,,,active antagonist,active antagonist,44.9702,-34.7735,inactive,,0,LightBiologicals
+287,144211452,6336,CCCCC(CN1C=NC=N1)(C#N)C2=CC=C(C=C2)Cl,Active,52,,,active antagonist,active antagonist,5.8829,-94.6767,inactive,,0,SIGMA
+288,144211470,5355863,C/C(=C\C(=O)OC)/OP(=O)(OC)OC,Active,42,,,active antagonist,active antagonist,50.4574,-37.9424,inactive,,0,ChemService
+289,144211494,91731,C1=C(C=NC(=C1Cl)NC2=C(C=C(C(=C2[N+](=O)[O-])Cl)C(F)(F)F)[N+](=O)[O-])C(F)(F)F,Active,58,,,active antagonist,active antagonist,3.43762,-119.232,active antagonist,13.1702,-117.889,SIGMA
+290,144211496,73665,CCCN(CCOC1=C(C=C(C=C1Cl)Cl)Cl)C(=O)N2C=CN=C2,Active,57,,,active antagonist,active antagonist,1.42208,-88.7245,inactive,,0,SIGMA
+291,144211502,86132,CC(C1CC1)C(CN2C=NC=N2)(C3=CC=C(C=C3)Cl)O,Active,44,,,active antagonist,active antagonist,27.1395,-59.4617,inactive,,0,ChemService
+292,144211510,3033674,CCCCOC(=O)[C@@H](C)OC1=CC=C(C=C1)OC2=NC=C(C=C2)C(F)(F)F,Active,52,,,active antagonist,active antagonist,0.0527515,-33.5813,inactive,,0,SIGMA
+293,144211535,2998,CCCCCCCCC(=O)NCC1=CC(=C(C=C1)O)OC,Active,42,,,active antagonist,active antagonist,68.5896,-56.3778,inactive,,0,SIGMA
+294,144211541,12898,CC1=CC=C(C=C1)N(SC(F)(Cl)Cl)S(=O)(=O)N(C)C,Active,58,,,active antagonist,active antagonist,3.85708,-121.804,active antagonist,27.306,-120.009,SIGMA
+295,144211545,61594,C1CCC(C1)C2=C(C=CC(=C2)Cl)O,Active,42,,,active antagonist,active antagonist,63.5221,-54.2703,inactive,,0,Toronto Research
+296,144211556,62379,CCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Br-],Active,53,,,active antagonist,active antagonist,7.1273,-106.593,active antagonist,46.7296,-102.914,SIGMA
+297,144211568,91683,C1=CC=C(C(=C1)C(C2=CC=C(C=C2)F)(C3=CN=CN=C3)O)Cl,Active,42,,,active antagonist,active antagonist,44.9702,-40.1404,inactive,,0,SIGMA
+298,144211571,53672,CCOC(=O)COC(=O)C1=C(C=CC(=C1)OC2=C(C=C(C=C2)C(F)(F)F)Cl)[N+](=O)[O-],Active,43,,,active antagonist,active antagonist,57.711,-69.2482,inactive,,0,SIGMA
+299,144211576,28768,C1=CC(=CN=C1)C(C2=CC=C(C=C2)Cl)(C3=CC=C(C=C3)Cl)O,Active,51,,,active antagonist,active antagonist,7.40614,-93.0646,inactive,,0,SIGMA
+300,144211613,31239,CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Cl-],Active,53,,,active antagonist,active antagonist,7.69588,-108.269,active antagonist,43.2771,-98.924,Enamine
+301,144211635,91693,CCCC(CN1C=NC=N1)C2=C(C=C(C=C2)Cl)Cl,Active,50,,,active antagonist,active antagonist,14.2208,-104.772,inactive,,0,SIGMA
+302,144211647,15530,C1=C(C=C(C(=C1I)O)I)C#N,Active,42,,,active antagonist,active antagonist,71.273,-88.4796,inactive,,0,SIGMA
+303,144211649,34313,CC1=C(OC(=C1C(=O)NC2=CC=CC=C2)C)C,Active,47,,,active antagonist,active antagonist,10.4614,-65.2745,inconclusive antagonist,,,SIGMA
+304,144211655,91727,C1=CC=C(C(=C1)C(CN2C=NC=N2)(C3=CC=C(C=C3)F)O)F,Active,43,,,active antagonist,active antagonist,48.5577,-50.6884,inactive,,0,SIGMA
+305,144211769,66571,CCOC1=CC(=C(C=C1N2CCOCC2)OCC)[N+](=O)[O-],Active,44,,,active antagonist,active antagonist,28.924,-48.4538,inactive,,0,LightBiologicals
+306,144211853,75444,CC[NH+]=C1C=CC(=C(C2=CC=C(C=C2)N(CC)CC)C3=CC=C(C=C3)N(CC)CC)C4=CC=CC=C14.[Cl-],Active,64,,,active antagonist,active antagonist,0.521117,-103.241,active antagonist,13.0899,-155.042,LightBiologicals
+307,144211864,439501,C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@H]2C[C@H]([C@@]3([C@@H]4[C@@H](CC[C@@]3(C2)O)[C@]5(CC[C@@H]([C@]5(C[C@H]4O)C)C6=CC(=O)OC6)O)CO)O)O)O)O,Active,53,,,active antagonist,active antagonist,0.478678,-54.8435,inactive,,0,LightBiologicals
+308,144211878,93528,CCCCCC(C)OC(=O)COC1=C2C(=C(C=C1)Cl)C=CC=N2,Active,42,,,active antagonist,active antagonist,66.0073,-44.255,inactive,,0,LightBiologicals
+309,144211885,91673,CCC1COC(O1)(CN2C=NC=N2)C3=C(C=C(C=C3)Cl)Cl,Active,45,,,active antagonist,active antagonist,26.278,-74.9509,inactive,,0,LightBiologicals
+310,144211890,5377791,CCOP(=O)(OCC)O/C(=C/Cl)/C1=C(C=C(C=C1)Cl)Cl,Active,46,,,active antagonist,active antagonist,25.2886,-77.5901,inactive,,0,LightBiologicals
+311,144211932,14569,CC1=CC(=CC=C1)NC2=CC=CC=C2,Active,44,,,active antagonist,active antagonist,27.306,-55.0476,inactive,,0,SIGMA
+312,144211933,39230,COC(=O)C1=C(C=CC(=C1)OC2=C(C=C(C=C2)Cl)Cl)[N+](=O)[O-],Active,44,,,active antagonist,active antagonist,34.3762,-70.0577,inactive,,0,SIGMA
+313,144211949,87019,C1=CN=CC=C1CCCC2=CC=NC=C2,Active,49,,,active antagonist,active antagonist,14.2208,-101.427,inactive,,0,SIGMA
+314,144212016,93162,CCCCCC1=CC=C(C=C1)N,Active,43,,,active antagonist,active antagonist,39.4692,-38.2362,inactive,,0,SIGMA
+315,144212018,93312,C1=CC(=CC=C1C(=O)OCCCOC(=O)C2=CC=C(C=C2)N)N,Active,46,,,active antagonist,active antagonist,28.3743,-87.5807,inactive,,0,SIGMA
+316,144212027,54682468,C[C@@]1([C@H]2C[C@H]3[C@@H](C(=O)C(=C([C@]3(C(=O)C2=C(C4=C(C=CC(=C41)Cl)O)O)O)O)C(=O)N)N(C)C)O.Cl,Active,42,,,active antagonist,active antagonist,53.5455,-47.581,inactive,,0,Bosche
+317,144212036,74937,C1=CC=C(C=C1)CCCC2=CC=NC=C2,Active,44,,,active antagonist,active antagonist,37.1186,-72.9297,inactive,,0,SIGMA
+318,144212048,20113,CC(C)(C1=CC(=C(C(=C1)Br)OCCO)Br)C2=CC(=C(C(=C2)Br)OCCO)Br,Active,45,,,active antagonist,active antagonist,28.8181,-77.3845,inactive,,0,SIGMA
+319,144212057,3005572,CN(C)CCOC1=CC=C(C=C1)/C(=C(/CCCl)\C2=CC=CC=C2)/C3=CC=CC=C3.C(C(=O)O)C(CC(=O)O)(C(=O)O)O,Active,55,,,active antagonist,active antagonist,5.72479,-113.851,active antagonist,47.2526,-89.4233,Sigma DiscoveryCPR
+320,144212068,5284462,COP(=O)(OC)O/C(=C\Cl)/C1=CC(=C(C=C1Cl)Cl)Cl,Active,45,,,active antagonist,active antagonist,25.2886,-74.7845,inactive,,0,Sigma DiscoveryCPR
+321,144212174,50895,CC(C(=O)O)OC1=CC=C(C=C1)OC2=C(C=C(C=N2)C(F)(F)F)Cl,Active,44,,,active antagonist,active antagonist,28.924,-51.9439,inactive,,0,LightBiologicals
+322,144212192,3033832,CCN(CC)CCOC1=CC=C(C=C1)/C(=C(/C2=CC=CC=C2)\Cl)/C3=CC=CC=C3.C(C(=O)O)C(CC(=O)O)(C(=O)O)O,Active,62,,,active antagonist,active antagonist,1.29406,-114.925,active antagonist,25.8199,-77.5404,LightBiologicals
+323,144212219,16115,CN(C)C(=O)NC1=CC=C(C=C1)OC2=CC=C(C=C2)Cl,Active,44,,,active antagonist,active antagonist,7.69588,-27.8571,inactive,,0,LightBiologicals
+324,144212220,30709,COP(=S)(C1=CC=CC=C1)OC2=CC(=C(C=C2Cl)Br)Cl,Active,40,,,active antagonist,active antagonist,,-17.8811,inactive,,0,LightBiologicals
+325,144212257,28417,C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@]2(C#C)O)CCC4=CC5=C(C[C@]34C)C=NO5,Active,44,,,active antagonist,active antagonist,57.711,-112.015,inactive,,0,LightBiologicals
+326,144212309,67274,COC1=CC=CC=C1NC(=O)C2=CC3=CC=CC=C3C=C2O,Active,45,,,active antagonist,active antagonist,28.3743,-81.5862,inconclusive agonist,34.3762,191.004,Enamine
+327,144212326,13708,COP(=O)(OC)OC1=CC=C(C=C1)[N+](=O)[O-],Active,45,,,active antagonist,active antagonist,25.2886,-59.2114,inactive,,0,LightBiologicals
+328,144212341,2361,C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C=CC4=CC=CC=C43,Active,50,,,active antagonist,active antagonist,14.2208,-106.511,inactive,,0,Acros
+329,144212383,2603,C1=CC(=CC(=C1)Cl)NN=C(C#N)C#N,Active,56,,,active antagonist,active antagonist,2.43365,-98.1692,active antagonist,10.0676,-100.271,Acros
+330,144212404,6099,CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2.[Cl-],Active,54,,,active antagonist,active antagonist,4.16478,-94.5324,active antagonist,38.5708,-89.1516,Acros
+331,144212410,81080,CC(=C)C(=O)OCCCCCCOC(=O)C(=C)C,Active,50,,,active antagonist,active antagonist,0.343762,-38.4131,inactive,,0,Acros
+332,144212468,8507,CCN(CC)C1=CC=C(C=C1)C(=C2C=CC(=[N+](CC)CC)C=C2)C3=C(C=C(C=C3)S(=O)(=O)[O-])S(=O)(=O)[O-].[Na+],Active,53,,,active antagonist,active antagonist,6.60073,-102.671,active antagonist,20.0875,-104.401,Acros
+333,144212471,5833,CC(=O)S[C@@H]1CC2=CC(=O)CC[C@@]2([C@@H]3[C@@H]1[C@@H]4CC[C@]5([C@]4(CC3)C)CCC(=O)O5)C,Active,46,,,active antagonist,active antagonist,27.306,-98.1291,inactive,,0,Acros
+334,144212536,32872,CCOP(=S)(NC(C)C)OC1=CC=CC=C1C(=O)OC(C)C,Active,45,,,active antagonist,active antagonist,18.2498,-48.5531,inactive,,0,LightBiologicals
+335,144212554,67005,CC1=C(C=C2C(=C1[N+](=O)[O-])C(CC2(C)C)(C)C)[N+](=O)[O-],Active,45,,,active antagonist,active antagonist,18.6034,-50.8329,inactive,,0,LightBiologicals
+336,144212570,11127402,CC1(CCC=C2[C@@]13CC[C@@H](C3)C2(C)C)C,Active,43,,,active antagonist,active antagonist,54.4827,-55.0886,inactive,,0,LightBiologicals
+337,144212603,11273,C[C@]12CCC(=O)C(=C1CC[C@@H]3[C@@H]2CC[C@]4([C@H]3CCC4=O)C)O,Active,73,,,active antagonist,active antagonist,0.0186034,-88.9762,inactive,,0,SIGMA
+338,144212669,2170,C1CN(CCN1)C2=NC3=CC=CC=C3OC4=C2C=C(C=C4)Cl,Active,50,,,active antagonist,active antagonist,16.5803,-115.202,inconclusive antagonist,61.1306,-80.7706,SIGMA
+339,144212686,54900,C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O.Cl,Active,87,,,active antagonist,active antagonist,0.00385708,-106.639,active antagonist,30.6379,-100.387,LightBiologicals
+340,144212690,60822,CC(C)C1=C(C(=C(N1CC[C@H](C[C@H](CC(=O)[O-])O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4.CC(C)C1=C(C(=C(N1CC[C@H](C[C@H](CC(=O)[O-])O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4.[Ca+2],Active,46,,,active antagonist,active antagonist,2.08937,-31.204,inactive,,0,LightBiologicals
+341,144212702,1268142,C[C@@H]1CC(=O)C=C2[C@]1(C[C@@H](CC2)C(=C)C)C,Active,43,,,active antagonist,active antagonist,30.6379,-31.7904,inactive,,0,SIGMA
+342,144212714,9855795,C[C@@H]1CCC=C2[C@]1(C[C@@H](CC2)C(=C)C)C,Active,42,,,active antagonist,active antagonist,61.1306,-39.2501,inactive,,0,SIGMA
+343,144212716,47936,CC(=O)O[C@H]1[C@H]([C@@H]2[C@]([C@H](CCC2(C)C)O)([C@@]3([C@@]1(O[C@@](CC3=O)(C)C=C)C)O)C)O,Active,58,,,active antagonist,active antagonist,1.36854,-93.5752,inconclusive antagonist,68.5896,-39.6782,SIGMA
+344,144212727,6917655,CC(=CC[C@@H]1[C@@](O1)(C)[C@H]2[C@@H]([C@@H](CC[C@]23CO3)OC(=O)/C=C/C=C/C=C/C=C/C(=O)O)OC)C,Active,46,,,active antagonist,active antagonist,9.32377,-51.4366,inactive,,0,SIGMA
+345,144212734,60823,CC(C)C1=C(C(=C(N1CC[C@H](C[C@H](CC(=O)O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4,Active,48,,,active antagonist,active antagonist,2.02642,-43.1593,inactive,,0,Waterstone
+346,144212751,3444,C1C(COC1(CN2C=NC=N2)C3=C(C=C(C=C3)Cl)Cl)Br,Active,48,,,active antagonist,active antagonist,20.746,-101.665,inactive,,0,EQ Laboratories
+347,144212786,161803,C1CN(CCN1CC2=CC3=C(C=C2)OCO3)C(=O)COC4=CC=C(C=C4)Cl.Cl,Active,43,,,active antagonist,active antagonist,54.4827,-55.7724,inactive,,0,LightBiologicals
+348,144212814,86211,CC(C)C1CCC(C1(CN2C=NC=N2)O)CC3=CC=C(C=C3)Cl,Active,56,,,active antagonist,active antagonist,3.96725,-108.124,active antagonist,28.086,-75.0854,EQ Laboratories
+349,144212873,23173,C1CCCCCOCCCCOC(=O)CCCC1,Active,44,,,active antagonist,active antagonist,27.306,-54.2258,inconclusive antagonist,,,SIGMA
+350,144212931,31280,CCCCCCCCCCCCCCCC[N+](C)(C)CC.[Br-],Active,52,,,active antagonist,active antagonist,9.71811,-108.5,active antagonist,34.4811,-117.441,SIGMA
+351,144213082,446155,CC(C)N1C2=CC=CC=C2C(=C1/C=C/[C@H](C[C@H](CC(=O)O)O)O)C3=CC=C(C=C3)F,Active,49,,,active antagonist,active antagonist,1.44963,-46.8193,inactive,,0,Enamine
+352,144213083,8305,C1=CC(=CC=C1S(=O)(=O)C2=CC(=C(C=C2Cl)Cl)Cl)Cl,Active,44,,,active antagonist,active antagonist,24.3365,-43.8693,inactive,,0,SIGMA
+353,144213097,6478,C1(=C(C(C(=C1Cl)Cl)(Cl)Cl)Cl)Cl,Active,44,,,active antagonist,active antagonist,41.6478,-65.0812,inactive,,0,LightBiologicals
+354,144213100,15106,C1=CC=C2C(=C1)C=CC=C2NCCN.Cl.Cl,Active,42,,,active antagonist,active antagonist,66.919,-65.2983,inconclusive antagonist,23.7438,-27.4432,SIGMA
+355,144213165,3032604,CCN(CC)C(=O)/C(=C(\C)/OP(=O)(OC)OC)/Cl,Active,44,,,active antagonist,active antagonist,7.99696,-29.4566,inactive,,0,LightBiologicals
+356,144213211,11933,C1=CC(=C(C=C1C2=CC(=C(C=C2)N)Cl)Cl)N.Cl.Cl,Active,45,,,active antagonist,active antagonist,34.3762,-95.73,inconclusive antagonist,,,SIGMA
+357,144213214,11289,COC1=CC=C(C=C1)C(=C(C2=CC=C(C=C2)OC)Cl)C3=CC=C(C=C3)OC,Active,50,,,active antagonist,active antagonist,8.97274,-83.3197,inactive,,0,SIGMA
+358,144213215,13806,CCNC1=CC2=C(C=C1C)C(=C3C=C(C(=[NH+]CC)C=C3O2)C)C4=CC=CC=C4C(=O)OCC.[Cl-],Active,70,,,active antagonist,active antagonist,0.131702,-104.541,active antagonist,1.53553,-137.741,Acros
+359,144213322,441140,C[C@@H]1CC(=O)C=C([C@]12C(=O)C3=C(O2)C(=C(C=C3OC)OC)Cl)OC,Active,46,,,active antagonist,active antagonist,6.11306,-43.4782,inactive,,0,SIGMA
+360,144213348,8342,C1=CC=C2C(=C1)C(=O)C(=C(C2=O)Cl)Cl,Active,57,,,active antagonist,active antagonist,3.57211,-112.51,inconclusive antagonist,27.306,-122.215,SIGMA
+361,144213364,9395,CCOP(=O)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],Active,45,,,active antagonist,active antagonist,22.5385,-63.1609,inactive,,0,LightBiologicals
+362,144213367,2724385,C[C@@H]1[C@H]([C@H](C[C@@H](O1)O[C@@H]2[C@H](O[C@H](C[C@@H]2O)O[C@@H]3[C@H](O[C@H](C[C@@H]3O)O[C@H]4CC[C@]5([C@@H](C4)CC[C@@H]6[C@@H]5C[C@H]([C@]7([C@@]6(CC[C@@H]7C8=CC(=O)OC8)O)C)O)C)C)C)O)O,Active,52,,,active antagonist,active antagonist,1.03425,-55.4782,inactive,,0,LightBiologicals
+363,144213429,12688,CCCC[Sn](CCCC)(Cl)Cl,Active,71,,,active antagonist,active antagonist,0.172289,-112.881,active antagonist,0.524314,-92.1967,LightBiologicals
+364,144213554,10868,C1CCC(CC1)N=C=NC2CCCCC2,Active,50,,,active antagonist,active antagonist,5.04574,-68.1018,inconclusive antagonist,,,LightBiologicals
+365,144213666,10068207,CC1=C(C2=C(O1)C(=CC=C2)NC(=O)C3=C(C=CC=C3Cl)Cl)C(C)(C)O,Active,45,,,active antagonist,active antagonist,19.3312,-59.6089,inactive,,0,Astellas Pharma
+366,144213678,5280863,C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O,Active,45,,,active antagonist,active antagonist,18.4309,-51.004,inactive,,0,SIGMA
+367,144213703,68589,C1=CC(=CC=C1COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl)Cl.[N+](=O)(O)[O-],Active,70,,,active antagonist,active antagonist,0.126228,-101.874,active antagonist,44.7874,-89.7247,SIGMA
+368,144213748,8816,CCCCCCCCCCCCCCCC[N+]1=CC=CC=C1.[Br-],Active,55,,,active antagonist,active antagonist,4.78672,-110.532,active antagonist,36.5908,-98.9631,SIGMA
+369,144213750,8348,C1=CC=C(C=C1)C(=O)C2=CC=CC=C2O,Active,43,,,active antagonist,active antagonist,43.2771,-60.1784,inactive,,0,SIGMA
+370,144213805,2145,CCC1(CCC(=O)NC1=O)C2=CC=C(C=C2)N,Active,44,,,active antagonist,active antagonist,35.7211,-68.1356,inactive,,0,SIGMA
+371,144213825,86287525,CC1=C2C(=NN1)NC3=C(C=C(C=C3)[N+](=O)[O-])C(=N2)C4=CC=CC=C4Cl,Active,61,,,active antagonist,active antagonist,1.26743,-109.544,active antagonist,25.2886,-106.612,Roche
+372,144213873,2187,CC(C)(C#N)C1=CC(=CC(=C1)CN2C=NC=N2)C(C)(C)C#N,Active,63,,,active antagonist,active antagonist,0.202879,-83.826,inactive,,0,SIGMA
+373,144213877,3902,C1=CC(=CC=C1C#N)C(C2=CC=C(C=C2)C#N)N3C=NC=N3,Active,74,,,active antagonist,active antagonist,0.0195424,-93.0281,inactive,,0,SIGMA
+374,144213902,31100,CC(C)C[C@H]1C(=O)N2CCC[C@H]2[C@]3(N1C(=O)[C@](O3)(C(C)C)NC(=O)[C@H]4CN([C@@H]5CC6=C(NC7=CC=CC(=C67)C5=C4)Br)C)O.CS(=O)(=O)O,Active,45,,,active antagonist,active antagonist,18.4298,-58.4768,inactive,,0,SIGMA
+375,144213918,59694,C1CC(N2C=NC=C2C1)C3=CC=C(C=C3)C#N.Cl,Active,81,,,active antagonist,active antagonist,0.00902326,-102.171,inactive,,0,SIGMA
+376,144213928,13109,CC[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@]2(C#C)O)CCC4=CC(=O)CC[C@H]34,Active,43,,,active antagonist,active antagonist,54.4827,-80.1015,inconclusive,,,LightBiologicals
+377,144213964,7381,CC(C)(C)C1=CC(=C(C=C1)O)O,Active,45,,,active antagonist,active antagonist,16.2975,-50.3417,active antagonist,51.9046,-67.3565,Enamine
+378,144214016,3712,C1=CC=C2C(=C1)C(=CN2)CO,Active,44,,,active antagonist,active antagonist,33.757,-64.0799,inactive,,0,SIGMA
+379,144214038,41368,CC(C)(C)C(C(N1C=NC=N1)OC2=CC=C(C=C2)Cl)O,Active,45,,,active antagonist,active antagonist,25.708,-75.2994,inactive,,0,SIGMA
