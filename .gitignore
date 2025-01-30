@@ -1,0 +1,12 @@
+#ignore entire folder with all its contents
+
+old/
+screening/*.csv
+datasets/
+
+
+#ignore all files in .out extension within the folder Scripts/pipeline and all its subfolders
+#Scripts/pipeline/**/*.out
+
+#ignore all files in format of 'result_*.csv' within the folder Data/model_dev/results and all its subfolders
+#Data/model_dev/results/**/result_*.csv

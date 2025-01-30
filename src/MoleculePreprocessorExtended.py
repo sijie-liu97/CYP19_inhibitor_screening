@@ -24,10 +24,10 @@ class MoleculePreprocessorExtended(MoleculePreprocessor):
 
   # set c++ log level of rdkit temporarily to ERROR so that csp does not clutter
   # stdout with logging
-  rdLogger.setLevel(RDLogger.ERROR)
+  rdLogger.setLevel(RDLogger.CRITICAL)
   self.csp()
-  rdLogger.setLevel(RDLogger.INFO)
-
+  rdLogger.setLevel(RDLogger.ERROR)
+  self.salt_filter()
   self.weight_filter(minWeight=minWeight,maxWeight=maxWeight)
   self.element_filter(allowedAtomNrs=allowedAtomNrs)
 
